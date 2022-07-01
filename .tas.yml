@@ -11,8 +11,5 @@ preMerge:
     - "test/**/*.spec.js"
 preRun: 
   command: 
-    - npm ci
-parallelism: 4
-splitmode: file
-    
+    - npm ci    
 #test2
