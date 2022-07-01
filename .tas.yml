@@ -12,5 +12,7 @@ preMerge:
 preRun: 
   command: 
     - npm ci
+parallelism: 4
+splitmode: file
     
 #test2
